@@ -1,7 +1,7 @@
 {
   ":name": "Future Power Team",
   ":description": "CMS model",
-  "custom-field":{
+  "Hero":{
     ":description": "Opening heading, sub heading and CTA button",
     "Heading" : {
       ":type": "line"
