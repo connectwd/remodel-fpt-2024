@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
-import { Features } from "./components/features";
+import { Features } from "./components/packages";
 import { About } from "./components/about";
 import { Services } from "./components/services";
 import { Gallery } from "./components/gallery";
 import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
-import JsonData from "./data/data.json";
+import JsonData from "./data/content.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 
@@ -26,8 +26,8 @@ const App = () => {
   return (
     <div>
       <Navigation />
-      <Header data={landingPageData.Header} />
-      <Features data={landingPageData.Features} />
+      <Header data={landingPageData["custom-field"]} />
+      <Features data={landingPageData["Packages"]} />
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
       <Gallery data={landingPageData.Gallery} />

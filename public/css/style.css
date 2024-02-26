@@ -51,7 +51,6 @@ a:focus {
   text-decoration: none;
   color: #608dfd;
 }
-ul,
 ol {
   list-style: none;
 }
@@ -60,6 +59,7 @@ ol {
   padding: 0;
   webkit-padding: 0;
   moz-padding: 0;
+  text-align: left;
 }
 hr {
   height: 2px;
@@ -208,7 +208,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(https://futurepowerteam.co.uk/wp-content/uploads/2023/05/Sky_SolarPanels_BackgroundEdited.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
