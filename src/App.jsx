@@ -8,7 +8,7 @@ import { Gallery } from "./components/gallery";
 import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
-import JsonData from "../src/content.json";
+import JsonData from "../src/data/content.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 
