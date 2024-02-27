@@ -1,0 +1,52 @@
+{
+  ":name": "Future Power Team",
+  ":description": "CMS model",
+  "Hero":{
+    ":description": "Opening heading, sub heading and CTA button",
+    "Heading" : {
+      ":type": "line"
+    },
+    "Sub-Heading": {
+      ":type": "line"
+    },
+    "CTA-Text": { 
+      ":type": "line"
+    },
+    "Hero-Image": {
+      ":type": "image"
+    }
+  },
+  "Packages": {
+    ":description": "Cards outlining different packages and features",
+    ":items": {
+      "Package-Image": {
+        ":type": "image"
+      },
+      "Package-Title": {
+        ":type": "line"
+      },
+      "Package-Description": {
+        ":type": "text"
+      },
+      "Package-Features": {
+        ":type": "text", 
+        ":richtext": true
+      },
+      "Package-Price": {
+        ":type": "line"
+      },
+      "Package-Kwhs": {
+        ":type": "line"
+      }
+    } 
+  },
+  "Accessory-Card": {
+    ":description": "Title and text for package accessory",
+    "Accessory-Title": {
+      ":type": "line"
+    },
+    "Accessory-Text": {
+      ":type": "text"
+    }
+  }
+}
