@@ -26,7 +26,7 @@ const App = () => {
   return (
     <div>
       <Navigation />
-      <Header data={landingPageData["custom-field"]} />
+      <Header data={landingPageData["Hero"]} />
       <Features data={landingPageData["Packages"]} />
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
