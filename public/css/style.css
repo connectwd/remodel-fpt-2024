@@ -75,10 +75,18 @@ hr {
   padding: 15px;
   transition: all 0.8s;
 }
-#menu.navbar-default {
+#menu.navbar-transparent {
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: transparent;
+}
+@media (min-width: 768px)
+{
+  #menu.scrolled {
   background-color: #fff;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  }
 }
 #menu a.navbar-brand {
   font-family: "Raleway", sans-serif;
@@ -95,7 +103,7 @@ hr {
   font-weight: 400;
   padding: 8px 2px;
   border-radius: 0;
-  margin: 9px 20px 0;
+  margin: 9px 0.6dvw 0;
 }
 #menu.navbar-default .navbar-nav > li > a:after {
   display: block;
@@ -111,6 +119,7 @@ hr {
 #menu.navbar-default .navbar-nav > li > a:hover:after {
   width: 100%;
 }
+
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
@@ -141,7 +150,7 @@ hr {
   background-color: #608dfd;
 }
 .section-title {
-  margin-bottom: 70px;
+  margin-bottom: 2rem;
 }
 .section-title h2 {
   position: relative;
@@ -206,7 +215,7 @@ a:focus,
 /* Header Section */
 .intro {
   display: table;
-  width: 100%;
+  width: 100dvw;
   padding: 0;
   background: url(https://futurepowerteam.co.uk/wp-content/uploads/2023/05/Sky_SolarPanels_BackgroundEdited.jpg) center center no-repeat;
   background-color: #e5e5e5;
@@ -248,17 +257,38 @@ header .intro-text {
 #features {
   background: #f6f6f6;
 }
-#features i.fa {
-  font-size: 38px;
-  margin-bottom: 20px;
-  transition: all 0.5s;
-  color: #fff;
-  width: 100px;
-  height: 100px;
-  padding: 30px 0;
-  border-radius: 50%;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+#features .package-container {
+  width: 100vw;
+}
+#features .package-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 2rem;
+}
+#features .package-card:hover {
+  transform: scale(1.05);
+}
+#features .package-card {
+  max-width: 450px;
+  min-width: 250px;
+  width: 30%;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #efefef;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  transform: all;
+}
+
+
+#features .package-image {
+  width: 80%;
 }
 /* About Section */
 #about {

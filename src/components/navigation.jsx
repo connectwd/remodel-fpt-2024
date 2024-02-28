@@ -1,8 +1,11 @@
 import React from "react";
 
 export const Navigation = (props) => {
+
+  const navBar = document.querySelector('#menu');
+
   return (
-    <nav id="menu" className="navbar navbar-default navbar-fixed-top .bg-transparent">
+    <nav id="menu" className="navbar navbar-transparent navbar-default navbar-fixed-top">
       <div className="container">
         <div className="navbar-header">
           <button
@@ -17,7 +20,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
+          <a className="navbar-brand" href="#page-top">
             <img alt="logo" src="https://futurepowerteam.co.uk/wp-content/uploads/2023/05/FPT_logo.png" />
           </a>{" "}
         </div>

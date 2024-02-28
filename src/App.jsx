@@ -23,6 +23,16 @@ const App = () => {
     setLandingPageData(JsonData);
   }, []);
 
+  document.addEventListener('scroll', () => {
+    const nav = document.querySelector('nav');
+    console.log(window.scrollY)
+    if (window.scrollY > 15) {
+      nav.classList.add('scrolled');
+    } else {
+      nav.classList.remove(['scrolled']);
+    }
+  })
+
   return (
     <div>
       <Navigation />

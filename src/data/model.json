@@ -48,5 +48,11 @@
     "Accessory-Text": {
       ":type": "text"
     }
+  },
+  "About-Us": {
+    ":description": "About us section",
+    "About-Text": {
+      ":type": "text"
+    }
   }
 }

@@ -1,5 +1,12 @@
 {
   "Packages": [
+   {
+      "Package-Title": "Essential",
+      "Package-Description": "Ideal for smaller homes where you will consume the majority of what you produce.",
+      "Package-Features": "<ul><li><p>3.2kw system</p></li><li><p>8x 400w panels</p></li><li><p>3.68kw inverter</p></li></ul>",
+      "Package-Price": "5495",
+      "Package-Kwhs": "2.8k"
+    }, 
     {
       "Package-Title": "Special Offer",
       "Package-Description": "This is a fantastic offer that gives you solar power and battery storage, meaning you can maximise your savings all year round.",
@@ -13,20 +20,6 @@
       "Package-Features": "<ul><li><p>6.72kw system</p></li><li><p>16x 420w panels</p></li><li><p>5kw inverter</p></li></ul>",
       "Package-Price": "7495",
       "Package-Kwhs": "5.9k"
-    },
-    {
-      "Package-Title": "Enhanced",
-      "Package-Description": "A great package for the average home that has good roof space",
-      "Package-Features": "<ul><li><p>4.92kw system</p></li><li><p>12x 410w panels</p></li><li><p>3.68kw inverter</p></li></ul>",
-      "Package-Price": "6995",
-      "Package-Kwhs": "4.3k"
-    },
-    {
-      "Package-Title": "Essential",
-      "Package-Description": "Ideal for smaller homes where you will consume the majority of what you produce.",
-      "Package-Features": "<ul><li><p>3.2kw system</p></li><li><p>8x 400w panels</p></li><li><p>3.68kw inverter</p></li></ul>",
-      "Package-Price": "5495",
-      "Package-Kwhs": "2.8k"
     }
   ],
   "Accessory-Card": {
