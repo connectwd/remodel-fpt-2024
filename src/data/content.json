@@ -1,12 +1,12 @@
 {
   "Packages": [
-   {
+    {
       "Package-Title": "Essential",
       "Package-Description": "Ideal for smaller homes where you will consume the majority of what you produce.",
       "Package-Features": "<ul><li><p>3.2kw system</p></li><li><p>8x 400w panels</p></li><li><p>3.68kw inverter</p></li></ul>",
       "Package-Price": "5495",
       "Package-Kwhs": "2.8k"
-    }, 
+    },
     {
       "Package-Title": "Special Offer",
       "Package-Description": "This is a fantastic offer that gives you solar power and battery storage, meaning you can maximise your savings all year round.",
@@ -30,5 +30,8 @@
     "Heading": "Solar Panels Packages installed",
     "Sub-Heading": "Helping people & businesses save money and the planet",
     "CTA-Text": "Contact Us"
+  },
+  "About-Us": {
+    "About-Text": "We are a leading provider of solar panel installations in Yorkshire and surrounding areas. Our expert team delivers sustainable energy solutions, including efficient solar systems, to create a greener future for the region."
   }
 }
