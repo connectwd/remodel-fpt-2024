@@ -57,11 +57,13 @@
   },
   "Process":{
     ":description": "outlining the install process",
-    "name": {
+    ":items": {
+      "name": {
       ":type": "line"
-    },
-    "text":{
-      ":type": "text"
+      },
+      "text":{
+        ":type": "text"
+      }
     }
   }
 }
