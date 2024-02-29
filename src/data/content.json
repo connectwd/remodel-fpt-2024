@@ -33,5 +33,23 @@
   },
   "About-Us": {
     "About-Text": "We are a leading provider of solar panel installations in Yorkshire and surrounding areas. Our expert team delivers sustainable energy solutions, including efficient solar systems, to create a greener future for the region."
-  }
+  },
+  "Process": [
+    {
+      "name": "Free Consultation",
+      "text": "Once you we have received your enquiry, one of team will arrange a free consultation with you, either in person or virtually. No pushy salesman and we’ll advise what we think is best for you."
+    },
+    {
+      "name": "Quoting Stage",
+      "text": "After our meeting, we will send you a formal quote of work, this might be two different options depending on what’s discussed. Once we get your approval, we will send you an invoice to get started with your install."
+    },
+    {
+      "name": "Install",
+      "text": "Scaffolding will be erected around your property, this takes approximately one day. Once your scaffolding is up, our team will arrive and install your panels, then our qualified electricians will install your inverter and/or batteries. This takes one to two days."
+    },
+    {
+      "name": "MCS Certification",
+      "text": "Once the install is complete, we will apply on your behalf for your MCS Certificate (so you can be paid for export payments) through your DNO. We will send you the certificate when it is issued. This can take a few weeks depending on how busy the DNO are."
+    }
+  ]
 }
