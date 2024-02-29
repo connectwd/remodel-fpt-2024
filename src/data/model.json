@@ -54,5 +54,14 @@
     "About-Text": {
       ":type": "text"
     }
+  },
+  "Process":{
+    ":description": "outlining the install process",
+    "name": {
+      ":type": "line"
+    },
+    "text":{
+      ":type": "text"
+    }
   }
 }

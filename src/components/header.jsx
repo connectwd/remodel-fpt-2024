@@ -1,7 +1,6 @@
 import React from "react";
 
 export const Header = (props) => {
-  console.log("Header props:  ", props)
   return (
     <header id="header">
       <div className="intro">

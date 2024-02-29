@@ -14,15 +14,15 @@ export const Navigation = (props) => {
             data-toggle="collapse"
             data-target="#bs-example-navbar-collapse-1"
           >
-            {" "}
-            <span className="sr-only">Toggle navigation</span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
+            
+            <span className="sr-only">Toggle navigation</span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
           </button>
           <a className="navbar-brand" href="#page-top">
             <img alt="logo" src="https://futurepowerteam.co.uk/wp-content/uploads/2023/05/FPT_logo.png" />
-          </a>{" "}
+          </a>
         </div>
 
         <div
@@ -31,37 +31,37 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#features" className="page-scroll">
+              <a href="/#features" className="page-scroll">
                 Packages
               </a>
             </li>
             <li>
-              <a href="#about" className="page-scroll">
+              <a href="/#about" className="page-scroll">
                 Process
               </a>
             </li>
             <li>
-              <a href="#services" className="page-scroll">
+              <a href="/#process" className="page-scroll">
                 faqs
               </a>
             </li>
             <li>
-              <a href="#portfolio" className="page-scroll">
+              <a href="/#portfolio" className="page-scroll">
                 Gallery
               </a>
             </li>
             <li>
-              <a href="#testimonials" className="page-scroll">
+              <a href="/about" className="page-scroll">
                 Future Blogs
               </a>
             </li>
             <li>
-              <a href="#team" className="page-scroll">
+              <a href="/#team" className="page-scroll">
                 Pay Now
               </a>
             </li>
             <li>
-              <a href="#contact" className="page-scroll">
+              <a href="/#contact" className="page-scroll">
                 Get a Quote
               </a>
             </li>
