@@ -1,5 +1,4 @@
 import React from "react";
-import { Image } from "./image";
 
 export const Features = (props) => {
   return (
@@ -18,7 +17,7 @@ export const Features = (props) => {
                   <div className="package-features" dangerouslySetInnerHTML={{__html: d["Package-Features"]}} />
                   <div className="package-footer">
                     <span className="pull-left">From <br/>£{d["Package-Price"]}</span>
-                    <span>Kwhs per year* <br/>{d["Package-Kwhs"]}</span>
+                    <span className="pull-right">Kwhs per year* <br/>{d["Package-Kwhs"]}</span>
                   </div>
                 </div>
               ))

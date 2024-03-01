@@ -23,7 +23,7 @@ export const Testimonials = (props) => {
                   </div>
                 </div>
               ))
-            : "loading"}
+            : <img src="img/testimonials/Screenshot 2024-02-29 at 15.35.44.png" alt=""/>}
         </div>
       </div>
     </div>

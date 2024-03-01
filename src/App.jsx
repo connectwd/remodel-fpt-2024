@@ -40,14 +40,15 @@ const App = () => {
           <>
             <Header data={landingPageData["Hero"]} />
             <Features data={landingPageData["Packages"]} />
-            <Process data={landingPageData.process} />
-            <Gallery data={landingPageData.Gallery} />
             <Testimonials data={landingPageData.Testimonials} />
+            <Gallery data={landingPageData.Gallery} />
+            <Process data={landingPageData["Process"]} />
           </>
         } />
         <Route path="/about" element={
           <>
             <About data={landingPageData["About-Us"]} />
+            {/* Blog */}
           </>
         } />
       </Routes>

@@ -3,19 +3,14 @@ import React from "react";
 export const Process = (props) => {
   return (
     <div id="process" className="text-center">
-      <div className="container">
+      <div className="process-container">
         <div className="section-title">
-          <h2>Our Process</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p>
+          <h2>How do we install your solar panels?</h2>
         </div>
-        <div className="row">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-4">
-                <i className={`process-step-number`}>{`0${i}`}</i>
+                <div key={`${d.name}-${i}`} className={`process${i} process-data`}>
+                <i className={`process-step-number`}>{`0${i+1}`}</i>
                   <div className="service-desc">
                     <h3>{d.name}</h3>
                     <p>{d.text}</p>
@@ -23,6 +18,8 @@ export const Process = (props) => {
                 </div>
               ))
             : "loading"}
+        <div className="process-img">
+          <img src="/img/solar-2344550_1920.jpg" alt="solar" />
         </div>
       </div>
     </div>
