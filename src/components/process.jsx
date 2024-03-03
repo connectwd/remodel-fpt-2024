@@ -19,7 +19,6 @@ export const Process = (props) => {
               ))
             : "loading"}
         <div className="process-img">
-          <img src="/img/solar-2344550_1920.jpg" alt="solar" />
         </div>
       </div>
     </div>

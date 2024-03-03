@@ -25,10 +25,23 @@ const App = () => {
 
   document.addEventListener('scroll', () => {
     const nav = document.querySelector('nav');
+    const iconBars = document.querySelectorAll('#icon-bar');
+
     if (window.scrollY > 15) {
       nav.classList.add('scrolled');
+      nav.classList.remove(['navbar-transparent']);
+      for (let i = 0; i < iconBars.length; i++) {
+        iconBars[i].classList.add('scrolled-bar');
+        iconBars[i].classList.remove('icon-bar-white');
+      }
     } else {
+      nav.classList.add(['navbar-transparent']);
       nav.classList.remove(['scrolled']);
+      for (let i = 0; i < iconBars.length; i++) {
+        iconBars[i].classList.remove('scrolled-bar');
+        iconBars[i].classList.add('icon-bar-white');
+        
+      }
     }
   })
 

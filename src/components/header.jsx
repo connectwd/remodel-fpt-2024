@@ -14,7 +14,7 @@ export const Header = (props) => {
                 </h1>
                 <p>{props.data ? props.data["Sub-Heading"] : "Loading"}</p>
                 <a
-                  href="#features"
+                  href="#contact"
                   className="btn btn-custom btn-lg page-scroll"
                 >
                   {props.data ? props.data["CTA-Text"] : "Loading"}

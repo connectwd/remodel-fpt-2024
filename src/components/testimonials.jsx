@@ -7,7 +7,7 @@ export const Testimonials = (props) => {
         <div className="section-title text-center">
           <h2>What our clients say</h2>
         </div>
-        <div className="row">
+        <div className="testimonial-wrapper">
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-4">
@@ -23,7 +23,7 @@ export const Testimonials = (props) => {
                   </div>
                 </div>
               ))
-            : <img src="img/testimonials/Screenshot 2024-02-29 at 15.35.44.png" alt=""/>}
+            : <span>This is where the google reviews will be</span>}
         </div>
       </div>
     </div>
