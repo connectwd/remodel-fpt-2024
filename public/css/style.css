@@ -335,7 +335,7 @@ header .intro-text {
     background-color: #f6f6f6;
     border-radius: 15px;
     transform: all;
-    overflow: hidden;
+    overflow: none;
   }
   #packages .package-features,
   .package-description {
@@ -350,6 +350,7 @@ header .intro-text {
     width: 100%;
     background-color: #ffd416;
     padding: 10px 20px;
+    border-radius:0 0 15px 15px;
   }
   #packages .package-image-wrapper {
     top: 0;
@@ -365,9 +366,10 @@ header .intro-text {
       padding: 0 0 15px 0 ;
     }
     #packages .package-card {
-      height: 62dvh;
+      min-height: 570px;
+      height: 45dvh;
       width: 95%;
-      margin: 15px 0;
+      margin: 10px 0;
     }
     #packages .package-features,
     .package-description {
