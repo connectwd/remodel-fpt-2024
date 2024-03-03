@@ -357,7 +357,7 @@ header .intro-text {
   }
   #packages .package-image {
     
-    width: 80%;
+    width: 75%;
   }
   /* Packages mobile */
   @media (max-width: 768px) {
@@ -373,8 +373,14 @@ header .intro-text {
     .package-description {
       font-size: 10px;
     }
-    #packages .package-features > p, #packages .package-features > ul, #packages .package-title > h3{
+    /* #packages .package-features > p, #packages .package-features > ul, #packages .package-title > h3{
       margin: 0;
+    } */
+    #packages > div > div.row.package-wrapper > div > div.package-features > ul > li {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-content: first baseline;
     }
 
   }
