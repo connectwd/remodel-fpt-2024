@@ -244,11 +244,11 @@ a:focus,
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
-  font-size: 7dvw;
+  font-size: calc(25px + 3dvw);
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .intro h1 span {
   font-weight: 800;
@@ -257,12 +257,12 @@ a:focus,
 .intro p {
   color: #fff;
   font-size: 22px;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 30px;
   margin: 0 auto;
   margin-bottom: 60px;
 }
-header .intro-text {
+#header .intro-text {
   padding-top: 350px;
   padding-bottom: 200px;
   text-align: center;
